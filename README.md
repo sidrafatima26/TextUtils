@@ -29,8 +29,40 @@ This text editor app lets you convert the text into UpperCase, LowerCase, Copy t
 
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To view the website locally or contribute to the code:
 
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/sidrafatima26/TextUtils.git
+   ```
+
+2. **Install React App**
+   ```bash
+   npm create-react-app TextUtils
+   ```
+
+3. **Install react router**
+   ```bash
+   npm i react-router-dom
+   ```
+   
+4. **Import React Router in your App.js File**
+   ```bash
+   import {
+   BrowserRouter as Router,
+   Switch, Route,
+   Link
+   } from "react-router-dom";
+   ```
+
+5. **Open the App.js File:** Open `index.html` in your preferred web browser.
+
+6. **Run in your terminal**
+   ```bash
+   npm start
+   ```
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### `npm start`
 
